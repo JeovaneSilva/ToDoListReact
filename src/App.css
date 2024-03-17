@@ -83,13 +83,19 @@ input,select{
   background-color: #5cb85c;
 }
 
-.remove{
+.remove, .cancelarEdit{
   background-color: #d9534f;
 }
 
-.iconLixo{
+.editar, .confirmarEdit{
+  background-color: #2064eb;
+}
+
+.iconLixo, .iconEdit{
   font-size: 14px;
 }
+
+
 
 .filter, .search{
   border-bottom: 1px solid #555;

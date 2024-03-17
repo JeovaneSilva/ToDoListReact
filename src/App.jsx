@@ -49,13 +49,19 @@ function App() {
     setTodos(newTodos)
   } 
 
+  const editTodo = (id, newText, newCategory) => {
+    const editedTodos = todos.map(todo =>
+      todo.id === id ? { ...todo, text: newText, category: newCategory } : todo
+    );
+    setTodos(editedTodos);
+  };
   
-
   return ( 
     <div className="app">
       <h1>Lista de Tarefas</h1>
       <Search search={search} setSearch={setSearch } />
       <Filter filter={filter} setFilter={setFilter} sort={sort} setSort={setSort} />
+      <TodoForm addTodo={addTodo} />
       <div className="todo-list">
        {todos
        .filter((todo) => 
@@ -74,13 +80,10 @@ function App() {
           todo={todo} 
           removeTodo={removeTodo} 
           completeTodo={completeTodo} 
+          editTodo={editTodo}
           />
-          
-
         ))}
       </div>
-      <TodoForm addTodo={addTodo} />
-     
     </div>
   );
 }
