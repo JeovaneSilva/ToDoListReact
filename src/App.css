@@ -1,3 +1,5 @@
+
+
 body{
   font-family: Arial;
   background-color: #f4f4f4;
@@ -103,4 +105,23 @@ input,select{
 
 .filter-options div {
   flex: 1 1 0;
+}
+
+@media (max-width:400px) {
+
+  .todo{
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 13px;
+  }
+
+  .todo .content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  
+ 
+
 }
