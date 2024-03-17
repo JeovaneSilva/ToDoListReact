@@ -5,6 +5,10 @@ import TodoForm from './components/TodoForm';
 import Search from './components/Search';
 import Filter from './components/Filter';
 
+// npm run deploy
+// git commit -a -m "configuracoes de deploy"
+// git push
+
 function App() {
 
   const [todos, setTodos] = useState(() => {

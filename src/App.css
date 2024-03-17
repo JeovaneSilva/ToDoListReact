@@ -5,8 +5,8 @@ body{
   background-color: #f4f4f4;
   padding: 30px;
   color: #333;
-  background-image: url('./img/digital-art-moon-wallpaper.jpg');
-  background-position: center;
+  background-image: url('./img/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-bus.jpg');
+  background-position: center bottom;
   background-size: cover;
 }
 
@@ -113,7 +113,7 @@ input,select{
   flex: 1 1 0;
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
 
   .todo{
     flex-direction: column;
@@ -127,7 +127,8 @@ input,select{
     justify-content: space-between;
   }
 
+  body{
+    background-position: top left;
+  }
   
- 
-
 }
