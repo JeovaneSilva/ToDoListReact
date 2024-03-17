@@ -6,14 +6,14 @@ body{
   padding: 30px;
   color: #333;
   background-image: url('./img/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-bus.jpg');
-  background-position: center bottom;
+  background-position: center left;
   background-size: cover;
 }
 
 .app{
   max-width: 600px;
   margin: 0 auto;
-  background-color: #efefef81;
+  background-color: #efefef80;
   padding: 20px 30px;
   border-radius: 10px;
   margin-bottom: 300px;
@@ -128,7 +128,7 @@ input,select{
   }
 
   body{
-    background-position: top left;
+    background-position: center;
   }
   
 }
