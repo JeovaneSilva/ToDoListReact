@@ -11,11 +11,6 @@ const Filter = ({filter,setFilter, sort, setSort}) => {
                     <option value="Incomplete">Incompletas</option>
                 </select>
             </div>
-            <div>
-              <p>Ordem alfabética:</p>
-              <button onClick={() => setSort("Asc")}>Asc</button>
-              <button onClick={() => setSort("Desc")}>Desc</button>
-            </div>
         </div>
     </div>
   )

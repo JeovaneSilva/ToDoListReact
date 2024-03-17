@@ -11,7 +11,7 @@ body{
 .app{
   max-width: 600px;
   margin: 0 auto;
-  background-color: #efefef;
+  background-color: #efefef81;
   padding: 20px 30px;
   border-radius: 10px;
   margin-bottom: 300px;
@@ -34,7 +34,7 @@ input{
 }
 
 button{
-  background-color: #333974;
+  background-color: #f35a08;
   color: #fff;
   padding: 5px 10px;
   margin-right: 10px;
@@ -52,7 +52,6 @@ button:hover{
 .todo-list{
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #555;
 }
 
 .todo{
@@ -84,6 +83,10 @@ input,select{
 
 .remove{
   background-color: #d9534f;
+}
+
+.iconLixo{
+  font-size: 14px;
 }
 
 .filter, .search{
