@@ -5,15 +5,15 @@ body{
   background-color: #f4f4f4;
   padding: 30px;
   color: #333;
-  background-image: url('./img/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-bus.jpg');
-  background-position: center left;
+  background-image: url('./img/3857.jpg');
+  background-position: center;
   background-size: cover;
 }
 
 .app{
   max-width: 600px;
   margin: 0 auto;
-  background-color: #efefef80;
+  background-color: #efefef99;
   padding: 20px 30px;
   border-radius: 10px;
   margin-bottom: 300px;
@@ -127,8 +127,9 @@ input,select{
     justify-content: space-between;
   }
 
-  body{
-    background-position: center;
+  .app{
+    margin-bottom: 100px;
   }
+
   
 }
